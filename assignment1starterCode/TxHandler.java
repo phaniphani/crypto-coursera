@@ -46,6 +46,10 @@ public class TxHandler {
             if (output.value < 0) return false;
             outputSum += output.value;
         }
+        int nums[] = new int[4];
+        for (int num : nums) {
+
+        }
         return inputSum >= outputSum;
     }
 
